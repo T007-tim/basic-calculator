@@ -1,2 +1,19 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Navigate to your project folder
+cd path_to_your_folder
+
+# Initialize Git
+git init
+
+# Add your file
+git add basic_calculator.py
+
+# Commit the changes
+git commit -m "Add basic calculator program"
+
+# Link to your GitHub repository
+git remote add origin https://github.com/your-username/basic-calculator.git
+
+# Push to GitHub
+git push -u origin master
